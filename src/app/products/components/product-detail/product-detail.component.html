@@ -1,13 +1,8 @@
-<div class="card mb-3" style="max-width: 400px;">
-    <img [src]="product.image" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">{{ product.title }}</h5>
-      <p class="card-text">{{ product.description }}</p>
-      <h5 class="card-title">{{ product.price | currency: '$' }}</h5>
-    </div>
+<div class="card mb-3" style="max-width: 400px;" *ngIf="product">
+  <img [src]="product.image" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{ product.title }}</h5>
+    <p class="card-text">{{ product.description }}</p>
+    <h5 class="card-title">{{ product.price | currency: '$' }}</h5>
   </div>
-
-  <!-- title: string;
-    price: number;
-    description: string;
-    image: string; -->
+</div>
