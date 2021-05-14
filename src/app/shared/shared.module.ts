@@ -7,6 +7,7 @@ import { HighlightDirective } from './directives/highlight.directive';
 
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { MaterialModule } from '../material/material.module';
 
 
 
@@ -20,7 +21,8 @@ import { FooterComponent } from './components/footer/footer.component';
   ],
   imports: [
     CommonModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MaterialModule
   ],
   exports: [
     ExponentialPipe,
