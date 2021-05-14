@@ -1,5 +1,4 @@
 <h1>Lista de productos</h1>
-<div class="card-group" *ngIf="products">
+<div class="product-grid" *ngIf="products">
     <app-product [product]="product" *ngFor="let product of products"></app-product>
-    
 </div>
