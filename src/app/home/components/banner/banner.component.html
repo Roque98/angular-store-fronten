@@ -1,0 +1,6 @@
+<swiper effect="fade" [slidesPerView]="1" [spaceBetween]="50" (swiper)="onSwiper($event)" (slideChange)="onSlideChange()"
+  [navigation]="true" [pagination]="{ clickable: true }" [scrollbar]="{ draggable: true }">
+  <ng-template swiperSlide *ngFor="let image of images">
+    <img [src]="image" alt="" srcset="" class="responsive">
+  </ng-template>
+</swiper>
