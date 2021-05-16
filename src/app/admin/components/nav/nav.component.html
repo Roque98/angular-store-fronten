@@ -5,9 +5,10 @@
       [opened]="(isHandset$ | async) === false">
     <mat-toolbar>Menu</mat-toolbar>
     <mat-nav-list>
-      <a mat-list-item [routerLink]="['/admin/create']" routerLinkActive="router-link-active" >Link 1</a>
-      <a mat-list-item [routerLink]="['/create']" routerLinkActive="router-link-active" >Link 2</a>
-      <a mat-list-item [routerLink]="['/create']" routerLinkActive="router-link-active" >Link 3</a>
+      <a mat-list-item [routerLink]="['/admin/create']" routerLinkActive="router-link-active" >Crear Producto</a>
+      <a mat-list-item [routerLink]="['/admin/home']" routerLinkActive="router-link-active" >Home</a>
+      <a mat-list-item [routerLink]="['/admin/inventario']" routerLinkActive="router-link-active" >Inventario</a>
+      <a mat-list-item [routerLink]="['/admin/products']" routerLinkActive="router-link-active" >Productos</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>

@@ -7,16 +7,18 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { MaterialModule } from '../material/material.module';
 import { NavComponent } from './components/nav/nav.component';
 import { LayoutModule } from '@angular/cdk/layout';
+import { ProductsListComponent } from './components/products-list/products-list.component';
+import { InventarioComponent } from './components/inventario/inventario.component';
+import { HomeAdminComponent } from './components/home-admin/home-admin.component';
 
 
 @NgModule({
-  declarations: [ProductFormComponent, NavComponent],
+  declarations: [ProductFormComponent, NavComponent, ProductsListComponent, InventarioComponent, HomeAdminComponent],
   imports: [
     CommonModule,
     AdminRoutingModule,
     ReactiveFormsModule,
     MaterialModule,
-    LayoutModule
   ]
 })
 export class AdminModule { }
