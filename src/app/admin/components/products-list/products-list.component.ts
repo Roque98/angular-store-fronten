@@ -8,6 +8,7 @@ import { ProductService } from 'src/app/core/services/product.service';
 })
 export class ProductsListComponent implements OnInit {
 
+  loaded = false;
   products = [];
   displayedColumns: string[] = ['id','title', 'price','actions']
 
@@ -16,6 +17,24 @@ export class ProductsListComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
+    this.fetchProducts();
+  }
+
+  fetchProducts(){
+    this.productService.getAllProducts()
+      .subscribe((products) => {
+        this.products = products;
+        this.loaded = true;
+      })
+  }
+
+  deleteProduct(id: string){
+    this.productService.delete(id)
+      .subscribe((rta) => {
+        this.products.filter((product) => {
+          return product.id === id;
+        })
+      })
   }
 
 }
