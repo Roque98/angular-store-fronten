@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "pruebas-373cf": {
+      "hosting": {
+        "platzi-store": [
+          "pruebas-373cf"
+        ]
+      }
+    }
+  }
+}

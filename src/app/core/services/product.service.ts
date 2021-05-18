@@ -1,8 +1,10 @@
 import { Injectable } from '@angular/core';
 import { Product } from '../interfaces/product.interface';
 import { productsData } from '../../mock/products.data'
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { environment } from 'src/environments/environment';
+import { catchError, retry } from 'rxjs/operators';
+import { throwError } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -35,5 +37,14 @@ export class ProductService {
 
   delete(id: string){
     return this.http.delete(`${this.url}/${id}`)
+      .pipe(
+        retry(3),
+        catchError(this.handleError)
+      )
+  }
+
+  private handleError(error: HttpErrorResponse){
+    console.log(error);
+    return throwError('ups, algo salio mal');
   }
 }
