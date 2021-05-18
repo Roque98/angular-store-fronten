@@ -1,0 +1,115 @@
+{
+  "configVersion": 1,
+  "timestamp": 1621366928814,
+  "index": "/platzi-store/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/platzi-store/10.5a14d7dd9f4f28b94d19.js",
+        "/platzi-store/11.5e33cfc654998c1eb079.js",
+        "/platzi-store/5.6ed40f9ad3b89d909de8.js",
+        "/platzi-store/6.e666a40cf28dba95ce81.js",
+        "/platzi-store/7.5e14279ca042fc8953a9.js",
+        "/platzi-store/8.bc783b4440e15e8bb77e.js",
+        "/platzi-store/9.c3dc63cb4c5640089768.js",
+        "/platzi-store/common.c3bdf00bb278ac73ddf8.js",
+        "/platzi-store/favicon.ico",
+        "/platzi-store/index.html",
+        "/platzi-store/main.d07855d289101e17af9c.js",
+        "/platzi-store/manifest.webmanifest",
+        "/platzi-store/polyfills.79fc8f67b53910f7831c.js",
+        "/platzi-store/runtime.b52d9e54de2e6f87f2c1.js",
+        "/platzi-store/styles.c2c26a2c5d05044e460d.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/platzi-store/assets/icons/icon-128x128.png",
+        "/platzi-store/assets/icons/icon-144x144.png",
+        "/platzi-store/assets/icons/icon-152x152.png",
+        "/platzi-store/assets/icons/icon-192x192.png",
+        "/platzi-store/assets/icons/icon-384x384.png",
+        "/platzi-store/assets/icons/icon-512x512.png",
+        "/platzi-store/assets/icons/icon-72x72.png",
+        "/platzi-store/assets/icons/icon-96x96.png",
+        "/platzi-store/assets/images/banner/banner-1.jpg",
+        "/platzi-store/assets/images/banner/banner-2.jpg",
+        "/platzi-store/assets/images/banner/banner-3.jpg",
+        "/platzi-store/assets/images/camiseta.png",
+        "/platzi-store/assets/images/hoodie.png",
+        "/platzi-store/assets/images/mug.png",
+        "/platzi-store/assets/images/pin.png",
+        "/platzi-store/assets/images/stickers1.png",
+        "/platzi-store/assets/images/stickers2.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/platzi-store/10.5a14d7dd9f4f28b94d19.js": "f9adafe90021825253d97132fe01a84469558656",
+    "/platzi-store/11.5e33cfc654998c1eb079.js": "9fc7e29e1f2feba1e995d1042a2b51a59881ebee",
+    "/platzi-store/5.6ed40f9ad3b89d909de8.js": "6abb4042794f8ccadf56c3270f6c8095b905fcb9",
+    "/platzi-store/6.e666a40cf28dba95ce81.js": "c65b2c5327b185414065206acaa286c312331fa5",
+    "/platzi-store/7.5e14279ca042fc8953a9.js": "5f2109b737fa33fc8a6d27f2eab64a28382c4a5a",
+    "/platzi-store/8.bc783b4440e15e8bb77e.js": "1dd2a6a6373041b4538bad7c72197969f4552777",
+    "/platzi-store/9.c3dc63cb4c5640089768.js": "5a4d5f5d51ea31bdfb3d4e7c46730c024d01b456",
+    "/platzi-store/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/platzi-store/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/platzi-store/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/platzi-store/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/platzi-store/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/platzi-store/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/platzi-store/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/platzi-store/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/platzi-store/assets/images/banner/banner-1.jpg": "597ed8dce2f9e348ea2ea2f05ad058986d289417",
+    "/platzi-store/assets/images/banner/banner-2.jpg": "dcdf99d7a53175421c2fbcea8ad91e2cc839ed17",
+    "/platzi-store/assets/images/banner/banner-3.jpg": "454a128389fad4809c3e2966433e30d33fb982f7",
+    "/platzi-store/assets/images/camiseta.png": "472b4d39b42f62328537157b2f8733217222f196",
+    "/platzi-store/assets/images/hoodie.png": "8038f8073f411c71d1170c159ab662b167162b74",
+    "/platzi-store/assets/images/mug.png": "bf847f2972ed56c8a09c3f0b00b6ca5e3d4d81d6",
+    "/platzi-store/assets/images/pin.png": "6dafa4717be3548624f59d9dfe98f255b06e4323",
+    "/platzi-store/assets/images/stickers1.png": "3c8d096bbf92f7d720451fa8febb59e7cf249c20",
+    "/platzi-store/assets/images/stickers2.png": "c3eb57ce264d22df9c393f8638041713361f293a",
+    "/platzi-store/common.c3bdf00bb278ac73ddf8.js": "271dd247a17bad39eb88fa17350490042eb3f939",
+    "/platzi-store/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/platzi-store/index.html": "b5fe46ff289d247203fb6fa7b720aa213946078c",
+    "/platzi-store/main.d07855d289101e17af9c.js": "5e306bb5ef496a03aa0b3897eef0627e177b2a2e",
+    "/platzi-store/manifest.webmanifest": "02d506d58db7c28472b4ae3cb724c6281f97e32f",
+    "/platzi-store/polyfills.79fc8f67b53910f7831c.js": "4583ea4040212bd032bc39cd5d24dccc13518d85",
+    "/platzi-store/runtime.b52d9e54de2e6f87f2c1.js": "dbd9ddfe5dff0b96a4262eb1a0b4f57d8f47c41e",
+    "/platzi-store/styles.c2c26a2c5d05044e460d.css": "1f820fb756d2c0ec199f3fcc109c7ab17f8a176f"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
